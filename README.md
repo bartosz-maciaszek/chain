@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/bartosz-maciaszek/chain.svg?branch=master)](https://travis-ci.org/bartosz-maciaszek/chainless )
+[![Build Status](https://travis-ci.org/bartosz-maciaszek/chain.svg?branch=master)](https://travis-ci.org/bartosz-maciaszek/chain)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.0-8892BF.svg)](https://php.net/)
 [![Coverage Status](https://coveralls.io/repos/bartosz-maciaszek/chain/badge.svg?branch=master&service=github)](https://coveralls.io/github/bartosz-maciaszek/validation?branch=master)
 [![Dependency Status](https://www.versioneye.com/user/projects/57dd386c037c2000458f6b5a/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56a8ec827e03c7003db68c73)
