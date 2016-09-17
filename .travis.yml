@@ -2,11 +2,11 @@ language: php
 
 php:
   - 7.0
-  - hhvm
+  - 7.1
 
 matrix:
   allow_failures:
-    - php: hhvm
+    - php: 7.1
 
 before_install:
   - composer self-update
