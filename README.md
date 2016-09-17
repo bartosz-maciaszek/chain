@@ -45,7 +45,7 @@ chain breaks.
 Processor queue is an object that aggregates processors in the given
 order. It exposes methods that allow managing processors.
  
-## What is the Chain?
+## What is the chain?
 
 Chain is a class that is responsible for execution of the processor
 queue and passing the context object to them.
