@@ -1,0 +1,46 @@
+{
+  "name": "bartosz-maciaszek/chain",
+  "description": "Actions chaining made easy for PHP7",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "chain", "chain or responsibility", "middleware"
+  ],
+  "authors": [
+    {
+      "name": "Bartosz Maciaszek",
+      "email": "bartosz@maciaszek.name"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/bartosz-maciaszek/chain/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "BM\\Chain\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BM\\ChainTests\\Traits\\": "tests/traits/",
+      "BM\\ChainTests\\Fixtures\\": "tests/fixtures/",
+      "BM\\ChainTests\\": "tests/unit/"
+    }
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.4",
+    "phpunit/phpcov": "~3.1",
+    "phpspec/phpspec": "~2.5",
+    "henrikbjorn/phpspec-code-coverage": "dev-feature/code-coverage-ver-4",
+    "mockery/mockery": "~1.0@dev",
+    "squizlabs/php_codesniffer": "~2.6",
+    "phpmd/phpmd" : "~2.4",
+    "phpspec/prophecy": "~1.6@dev"
+  },
+  "repositories": [
+    {"type": "vcs", "url": "https://github.com/michaldudek/PhpSpecCodeCoverageExtension.git"}
+  ]
+}
