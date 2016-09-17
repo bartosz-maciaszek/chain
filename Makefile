@@ -43,5 +43,4 @@ phpcs_fix:
 
 # Run PHP Mess Detector on the source code
 phpmd:
-# phpmd does not fully support PHP7 yet, so there might be some errors randomly... if so, let's just disable it
 	php ./vendor/bin/phpmd src text ./phpmd.xml
