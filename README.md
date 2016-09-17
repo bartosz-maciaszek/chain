@@ -34,7 +34,7 @@ charge here.
 
 ## What are the processors?
 
-Processors are `callable`s that contain some logic to be executed. They
+Processors are `callable`'s that contain some logic to be executed. They
 can be closures or classes implementing `__invoke` method. The
 processors always take two arguments: context and next processor in the
 queue. They are responsible for execution of next one, otherwise the
