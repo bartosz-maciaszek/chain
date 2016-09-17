@@ -14,7 +14,7 @@ conditionally, runs next middleware.
 
 ## How do I install it?
 
-    composer require 
+    composer require bartosz-maciaszek/chain
 
 ## How do I use it?
 
