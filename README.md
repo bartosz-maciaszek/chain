@@ -50,6 +50,6 @@ order. It exposes methods that allow managing processors.
 Chain is a class that is responsible for execution of the processor
 queue and passing the context object to them.
 
-# Any examples?
+## Any examples?
 
 Have a look [here](examples).
