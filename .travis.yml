@@ -1,0 +1,18 @@
+language: php
+
+php:
+  - 7.0
+  - hhvm
+
+matrix:
+  allow_failures:
+    - php: hhvm
+
+before_install:
+  - composer self-update
+
+install:
+  - travis_retry make deps
+
+script:
+  - make qa

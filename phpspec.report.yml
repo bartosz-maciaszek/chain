@@ -1,0 +1,12 @@
+formatter.name: dot
+suites:
+    chain_suite:
+        namespace: BM\Chain\
+        spec_path: tests
+
+extensions:
+    - PhpSpec\Extension\CodeCoverageExtension
+
+code_coverage:
+    format: php
+    output: tests/coverage/phpspec.cov

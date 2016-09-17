@@ -1,0 +1,5 @@
+formatter.name: dot
+suites:
+    chain_suite:
+        namespace: BM\Chain\
+        spec_path: tests
