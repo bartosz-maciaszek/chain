@@ -12,7 +12,7 @@ before_install:
   - composer self-update
 
 install:
-  - travis_retry make deps
+  - travis_retry make composer
 
 script:
   - make qa
